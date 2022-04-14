@@ -1,9 +1,9 @@
-name: LobbyScoreboard
+name: SimpleCore
 version: 1.0
 author: dantedev
 api: 4.0.0
 main: testcore\dantedev
-website: https://github.com/dantedev/LbbyScoreboard
+website: https://github.com/ItsToxicGG
 
 commands:
   ls:
