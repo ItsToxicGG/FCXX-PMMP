@@ -3,14 +3,15 @@
 namespace ls\dantedev;
 
 use pocketmine\plugin\PluginBase;
+use pocketmine\player\Player;
 
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
-
+// this is the other commands
 class ls extends main{
     
-    public function onEnable() {
-        $this->getLogger()->info("§aLobbyScoreboard has been enabled");
+    public function onEnable(): void{
+        $this->getLogger()->info("§aSimpeCore has been enabled");
         $this->getLogger()->info("§1By DanteDev");
     }
 
@@ -20,6 +21,10 @@ class ls extends main{
                 $sender->sendMessage("§4All Commands");
                 $sender->sendMessage(" ");
                 $sender->sendMessage("§cNone Commands are found!");
+             break;
+                
+            case "":
+                
     
                 return true;
             default:
