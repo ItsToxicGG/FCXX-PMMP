@@ -1,0 +1,17 @@
+name: LobbyScoreboard
+version: 1.0
+author: dantedev
+api: 4.0.0
+main: testcore\dantedev
+website: https://github.com/dantedev/LbbyScoreboard
+
+commands:
+  ls:
+    description: Help Command
+    usage: "/ls"
+    permission: ls.help
+
+permissions:
+  ls.help:
+    description: "permission to /ls help"
+    default: op
